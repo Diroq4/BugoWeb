@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from ProyectoBugo.views import bienvenida
+from BugoWeb.views import register_company
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bienvenida/', bienvenida),
+    path('adduser/', register_company),
 ]
