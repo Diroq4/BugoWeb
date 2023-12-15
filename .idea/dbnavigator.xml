@@ -27,6 +27,8 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="3e9dee2d-92ec-4d15-b880-043639116fa5" dataset="main.auth_user" active-filter-id="" />
+    <filter-actions connection-id="3e9dee2d-92ec-4d15-b880-043639116fa5" dataset="main.BugoWeb_distributor" active-filter-id="" />
+    <filter-actions connection-id="3e9dee2d-92ec-4d15-b880-043639116fa5" dataset="main.BugoWeb_user" active-filter-id="" />
     <filter-actions connection-id="3e9dee2d-92ec-4d15-b880-043639116fa5" dataset="main.auth_group" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
