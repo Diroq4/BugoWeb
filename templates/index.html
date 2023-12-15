@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+    {% if distribuidor %}
+    <p>El distribuidor es {{ distribuidor.nombre}}</p>
+    {% else %}
+    No hay distribuidores
+    {% endif %}
+    <h1>Bienvenido a Bugo</h1>
+{% endblock %}

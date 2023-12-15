@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+    {% for distribuidor in distribuidores %}
+        <h2>El distribuidor es: </h2>
+        <p class="lead mb-0">
+            {{distribuidor.nombre}} su telefono es {{distribuidor.telefono}}
+        </p>
+        <hr>
+    {% endfor %}
+{% endblock %}
