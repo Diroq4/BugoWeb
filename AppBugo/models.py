@@ -14,3 +14,8 @@ class Distribuidor(models.Model):
 
     def __str__(self):
         return f"Nombre: {self.nombre}, Telefono: {self.telefono}"
+
+class Contacto(models.Model):
+    telefono = models.IntegerField()
+    def __str__(self):
+        return f"Telefono: {self.telefono}"

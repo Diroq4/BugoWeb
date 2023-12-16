@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 
 {% block cambio %}
+<div>
+    <form action="/app/buscar_distribuidor/" method="GET">
+
+        {{form.as_p}}
+
+        <input type="submit" value="Buscar">
+
+    </form>
+</div>
     {% for distribuidor in distribuidores %}
         <h2>El distribuidor es: </h2>
         <p class="lead mb-0">
