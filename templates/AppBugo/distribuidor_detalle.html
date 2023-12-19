@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+
+  <p>El distribuidor es: <b>{{distribuidor.nombre}}</b></p>
+  <p>Numero: {{distribuidor.telefono}}</p>
+  <p>Email: {{distribuidor.email}}</p>
+  <p>
+    <a href="{% url 'lista' %}"></a>
+  </p>
+
+{% endblock %}
